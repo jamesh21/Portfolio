@@ -1,0 +1,15 @@
+img .project-card {
+    border-radius: 20px;
+}
+/* img {
+    border-radius: 20px;
+} */
+
+/* img {
+    border-radius: 50%;
+} */
+.round-img {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+}
