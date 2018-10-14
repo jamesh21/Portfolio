@@ -14,8 +14,29 @@ img .project-card {
 
 }
 
+.project-card {
+  width: 400px;
+  height: 400px;
+}
+
 .navbar-default {
     background-color: #2c3e50;
     background-image: none;
  background-repeat: no-repeat;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  /* background-color: #f2f2f2; */
+  padding: 25px;
+}
+
+.footer-text {
+  background-color: #8C43FF;
 }
