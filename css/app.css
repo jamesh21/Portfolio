@@ -1,7 +1,9 @@
-img .project-card {
+/* img .project-card {
     border-radius: 50%;
+} */
+body {
+    font-family: 'Poppins', sans-serif;
 }
-
 .round-img {
     display: block;
     margin-left: auto;
@@ -11,16 +13,25 @@ img .project-card {
     width: 350px;
     background-image: url('../img/james.jpg');
     background-size: cover;
-
 }
 
 .project-card {
-  /* width: 400px;
-  height: 400px;
-  border-radius: 5%; */
+  /* width: 400px; */
+  min-height: 500px;
+  /* border-radius: 5%; */
   /* padding: 10px; */
 }
 
+.project-section {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.about-section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 25px;
+}
 .navbar-default {
     background-color: #2c3e50;
     background-image: none;
